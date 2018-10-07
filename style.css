@@ -14,6 +14,82 @@ h1 {
   font-family: Verdana, serif;
   font-weight: lighter;
 }
+
+h2 {
+  padding: 3px 3px 3px 3px;
+  margin-left: 34%;
+
+  font-family: Verdana, serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h3 {
+  margin-left: 34%;
+
+  font-family: Verdana, serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+p {
+  display: block;
+  margin: 5px 20px 5px 38%;
+  width: 60%;
+
+  font-family: Verdana, serif;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+
+  list-style-type: none;
+  text-align: center;
+}
+li {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+footer {
+  height: 40px;
+  width: auto;
+
+  background-color: #9F9F9F;
+}
+
+.bot {
+  margin-top: 6em;
+}
+
+.photo {
+  margin-top: 95px;
+  width: 120px;
+  height: 120px;
+
+  border-radius: 100%;
+}
+
+.bu {
+  font-size: 50px;
+}
+
+.left-panel {
+  position: fixed;
+  top: 0px;
+
+  padding: 15px 20px 15px 20px;
+  margin:0px 0px 0px 100px;
+  height: 100%;
+  width: 220px;
+
+  color: #9F9F9F;
+  background-color: #2F2F2F;
+}
+
 .title {
   display: block;
   margin-top: 100px; 
@@ -31,37 +107,4 @@ h1 {
   font-family: Verdana, serif;
   font-weight: lighter;
   text-align: center;
-}
-
-.photo {
-  margin-top: 95px;
-  width: 120px;
-  height: 120px;
-
-  border-radius: 100%;
-}
-
-.left-panel {
-  position: fixed;
-  top: 0px;
-
-  padding: 15px 20px 15px 20px;
-  margin:0px 0px 0px 100px;
-  height: 100%;
-  width: 220px;
-
-  color: #9F9F9F;
-  background-color: #2F2F2F;
-}
-
-ul {
-  padding: 0px;
-  margin: 0px;
-
-  list-style-type: none;
-  text-align: center;
-}
-li {
-  padding-top: 5px;
-  padding-bottom: 10px;
 }
